@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackfinity 2026</title>
+    <meta name="description"
+        content="Join Hackfinity 2026, a thrilling 24-hour national hackathon powering the next generation of innovation at Cambridge Institute of Technology North Campus.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <canvas id="canvas-bg"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home" style="color: inherit; text-decoration: none;">Hackfinity<span
+                        class="highlight">.</span></a>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#faqs">FAQs</a>
+                <a href="#problems">Problem Statements</a>
+
+                <div class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Download <i class="fa-solid fa-chevron-down"
+                            style="font-size: 0.7rem; margin-left: 4px;"></i></a>
+                    <div class="dropdown-content glass-card">
+                        <a href="assets/Hackfinity Template.pptx" download>PPT Template</a>
+                        <a href="javascript:void(0)">Rule Book</a>
+                        <a href="javascript:void(0)">Problem Statements</a>
+                        <a href="javascript:void(0)">Brochure</a>
+                    </div>
+                </div>
+
+                <a href="https://unstop.com/p/hackfinity-24-hour-hackathon-cambridge-institute-of-technology-north-campus-1666268?lb=5FaiLkSS&utm_medium=Share&utm_source=WhatsApp"
+                    target="_blank" class="btn-sm btn-glow">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- 1. Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="badge">🚀 The Ultimate 24-Hour Hackathon</div>
+                <h1 class="hero-title">
+                    <span class="text-glow">HACKFINITY</span> <br>
+                    <span class="text-outline">2026</span>
+                </h1>
+                <h2 class="hero-subtitle">Powering the Next Generation of Innovation</h2>
+                <p class="hero-description">
+                    Join a thrilling 24-hour national hackathon where innovators, developers, and creators collaborate
+                    to
+                    transform ideas into impactful solutions.
+                </p>
+
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fa-regular fa-calendar"></i>
+                        <div>
+                            <strong>04 - 05 May, 2026</strong>
+                            <span>24 Hours Non-Stop</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>CIT North Campus</strong>
+                            <span>Bengaluru</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="https://unstop.com/p/hackfinity-24-hour-hackathon-cambridge-institute-of-technology-north-campus-1666268?lb=5FaiLkSS&utm_medium=Share&utm_source=WhatsApp"
+                        target="_blank" class="btn btn-primary btn-glow">Register Now <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#problems" class="btn btn-outline">View Problem Statements</a>
+                </div>
+            </div>
+
+            <div class="hero-decorations">
+                <div class="floating-icon icon-1"><i class="fa-brands fa-react"></i></div>
+                <div class="floating-icon icon-2"><i class="fa-brands fa-python"></i></div>
+                <div class="floating-icon icon-3"><i class="fa-solid fa-code"></i></div>
+                <div class="floating-icon icon-4"><i class="fa-solid fa-microchip"></i></div>
+            </div>
+        </section>
+
+        <!-- 2. About Hackfinity -->
+        <section class="about section" id="about">
+            <div class="container grids">
+                <div class="about-content">
+                    <h2 class="section-title">About <span class="highlight">Hackfinity</span></h2>
+                    <p>Hackfinity 2026 is a 24-hour national-level hackathon that brings together students, developers,
+                        designers, and innovators from across the country. Participants collaborate, build solutions,
+                        and
+                        push the boundaries of creativity and technology.</p>
+                    <p>Hosted by <strong>Techfinity Club</strong> at <strong>Cambridge Institute of Technology North
+                            Campus</strong>, this event fosters innovation, teamwork, and real-world problem solving.
+                    </p>
+                </div>
+                <div class="about-visual glow-box">
+                    <div class="glass-card light-glass-box">
+                        <div class="stat-row">
+                            <div class="stat">
+                                <span class="stat-num">24<small>Hrs</small></span>
+                                <span class="stat-label">Coding</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num">32</span>
+                                <span class="stat-label">Teams</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num">₹2.6L+</span>
+                                <span class="stat-label">Prizes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prizes Section -->
+        <section class="prizes section" id="prizes">
+            <div class="container">
+                <div class="glass-card prizes-container">
+                    <h2 class="section-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Theme-wise <span
+                            class="highlight">Prizes</span></h2>
+                    <p class="prizes-subtitle">For each hackathon theme, there will be a Winner and a Runner-Up who will
+                        receive exciting prizes.</p>
+
+                    <div class="prize-cards-grid">
+                        <div class="prize-card glow-box">
+                            <div class="prize-card-inner glass-card">
+                                <div class="prize-icon first-place"><i class="fa-solid fa-trophy"></i></div>
+                                <h3>First Prize</h3>
+                                <div class="prize-amount">₹40,000</div>
+                                <div class="prize-per">per theme</div>
+                            </div>
+                        </div>
+                        <div class="prize-card glow-box">
+                            <div class="prize-card-inner glass-card">
+                                <div class="prize-icon second-place"><i class="fa-solid fa-trophy"></i></div>
+                                <h3>Runner-Up</h3>
+                                <div class="prize-amount text-secondary">₹20,000</div>
+                                <div class="prize-per">per theme</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="themes-list">
+                        <p class="text-center">Applicable across all five themes:</p>
+                        <div class="theme-badges">
+                            <span class="theme-badge">Viksit Bharat</span>
+                            <span class="theme-badge">AIML, Blockchain & Cybersecurity</span>
+                            <span class="theme-badge">FoodTech/MedTech/AgriTech</span>
+                            <span class="theme-badge">InfraTech & IoT</span>
+                            <span class="theme-badge">Miscellaneous</span>
+                        </div>
+                    </div>
+
+                    <div class="special-awards-grid">
+                        <div class="prize-card small-prize">
+                            <div class="prize-card-inner glass-card">
+                                <div class="prize-icon"><i class="fa-solid fa-palette"></i></div>
+                                <h3>Best UI/UX Award</h3>
+                                <div class="prize-amount text-accent">₹10,000</div>
+                            </div>
+                        </div>
+                        <div class="prize-card small-prize">
+                            <div class="prize-card-inner glass-card">
+                                <div class="prize-icon"><i class="fa-solid fa-venus"></i></div>
+                                <h3>Best Women's Team Award</h3>
+                                <div class="prize-amount text-accent">₹10,000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Why Participate -->
+        <section class="features section" id="features">
+            <div class="container">
+                <h2 class="section-title text-center">Why <span class="highlight">Participate?</span></h2>
+                <div class="feature-grid">
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3>Innovation</h3>
+                        <p>Work on real-world problems and develop impactful solutions that make a difference.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                        <h3>Collaboration</h3>
+                        <p>Meet and network with talented developers, designers, and innovators.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Learning</h3>
+                        <p>Enhance your technical abilities and fast-track your problem-solving skills.</p>
+                    </div>
+
+                    <div class="feature-card glass-card">
+                        <div class="feature-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <h3>Recognition</h3>
+                        <p>Win exciting prizes, mentorship opportunities, and gain national-level exposure.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Event Details -->
+        <section class="details section">
+            <div class="container">
+                <div class="details-wrapper glass-card glow-box light-glass-box">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-flag-checkered"></i>
+                        <h4>Event</h4>
+                        <p>Hackfinity 2026</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <h4>Duration</h4>
+                        <p>24 Hours</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-building"></i>
+                        <h4>Mode</h4>
+                        <p>Offline Hackathon</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-regular fa-calendar-check"></i>
+                        <h4>Date</h4>
+                        <p>04 - 05 May, 2026</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <h4>Venue</h4>
+                        <p>CIT North Campus, Bengaluru</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h4>Team Size</h4>
+                        <p>3 - 4 Members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Organizers Section -->
+        <section class="organizers section" id="organizers">
+            <div class="container">
+                <h2 class="section-title text-center">Our <span class="highlight">Organizers</span></h2>
+                <div class="organizers-grid">
+                    <div class="organizer-logo">
+                        <img src="assets/techfinity.png?v=2" alt="Techfinity Club">
+                        <span>Techfinity Club</span>
+                    </div>
+                    <div class="organizer-logo">
+                        <img src="assets/ieee.png?v=2" alt="IEEE CITNC">
+                        <span>IEEE CITNC Student Branch</span>
+                    </div>
+                    <div class="organizer-logo">
+                        <img src="assets/iic.png?v=2" alt="Institution's Innovation Council">
+                        <span>Institution's Innovation Council</span>
+                    </div>
+                    <div class="organizer-logo">
+                        <img src="assets/cit.png?v=2" alt="Cambridge Institute of Technology">
+                        <span>CIT North Campus</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Timeline Preview -->
+        <section class="timeline section" id="timeline">
+            <div class="container">
+                <h2 class="section-title text-center">Event <span class="highlight">Timeline</span></h2>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">30 March, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Registration Opens</h3>
+                            <p>Start assembling your team and register for the event with a PPT.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">30 March, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Problem Statements Release</h3>
+                            <p>Themes and challenges are officially revealed.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">22 April, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Shortlisted Teams Announcement</h3>
+                            <p>The top teams moving to the offline phase are announced.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">04 May, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Hackathon Kickoff</h3>
+                            <p>Opening ceremony and start of the 24-hour building phase.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">04 - 05 May, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Development Phase</h3>
+                            <p>Non-stop coding, mentoring sessions, and fun activities.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">05 May, 2026</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Presentations & Winners</h3>
+                            <p>Pitch your solution, followed by the closing ceremony.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Call To Action -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta-box glass-card glow-box text-center light-glass-box">
+                    <h2>Ready to Build the <span class="highlight">Future?</span></h2>
+                    <p>Join some of the brightest innovators and showcase your skills at Hackfinity 2026.</p>
+                    <div class="cta-buttons">
+                        <a href="https://unstop.com/p/hackfinity-24-hour-hackathon-cambridge-institute-of-technology-north-campus-1666268?lb=5FaiLkSS&utm_medium=Share&utm_source=WhatsApp"
+                            target="_blank" class="btn btn-primary btn-glow btn-lg">Register Now <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#whatsapp" class="btn btn-outline btn-lg"><i class="fa-brands fa-whatsapp"></i> Join
+                            Community</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Problems Page -->
+    <div id="problems-page" style="display: none;">
+        <section class="section" style="padding-top: 150px; min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title text-center text-glow"
+                    style="font-size: 3.5rem; margin-bottom: 0.5rem; color: var(--color-accent); text-shadow: 0 0 15px rgba(72,202,228,0.5);">
+                    Problem Statements</h2>
+                <p class="text-center" style="font-size: 1.1rem; margin-bottom: 4rem;">Choose from 5 exciting themes and
+                    solve real-world challenges</p>
+
+                <div class="accordion">
+                    <!-- Viksit Bharat -->
+                    <div class="accordion-item active">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-globe"></i></div>
+                                <div class="accordion-title">Viksit Bharat</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="theme-desc-box">
+                                    <p>Viksit Bharat focuses on building inclusive, tech-driven solutions for national
+                                        growth. Participants will create innovations that empower youth through better
+                                        learning, skills, careers, and mental wellbeing. The theme also emphasizes women
+                                        empowerment, promoting safety, education, financial independence, and healthcare
+                                        through digital tools. Additionally, it aims to uplift under-economic
+                                        communities with accessible solutions in education, healthcare, livelihoods, and
+                                        essential resources.</p>
+                                </div>
+                                <h4 class="ps-subtitle">Problem Statements</h4>
+                                <div class="ps-list">
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS101</div>
+                                        <div class="ps-title">AI-Powered Career Guidance System for Rural Youth</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS102</div>
+                                        <div class="ps-title">Digital Platform for Women Safety and Emergency Response
+                                        </div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS103</div>
+                                        <div class="ps-title">Smart Learning App for Skill Development in Underserved
+                                            Areas</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS104</div>
+                                        <div class="ps-title">Mental Health Support Chatbot for Students</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS105</div>
+                                        <div class="ps-title">Financial Literacy and Microfinance Platform for Women
+                                            Entrepreneurs</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AIML -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                <div class="accordion-title">AIML, Blockchain & Cybersecurity</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="theme-desc-box">
+                                    <p>AI/ML, Blockchain & Cybersecurity focuses on building secure and intelligent
+                                        digital solutions. Participants can use AI/ML to automate tasks, make
+                                        predictions, and improve decision-making across industries. The Blockchain track
+                                        encourages transparent, decentralized applications for trust, security, and
+                                        efficiency. The Cybersecurity track emphasizes protecting data, systems, and
+                                        users through strong security and privacy-focused innovations.</p>
+                                </div>
+                                <h4 class="ps-subtitle">Problem Statements</h4>
+                                <div class="ps-list">
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS201</div>
+                                        <div class="ps-title">Decentralized Blockchain Platform for Blue Carbon Tracking
+                                            and Credit Management</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS202</div>
+                                        <div class="ps-title">Decentralized Blockchain System for Transparent
+                                            Agri-Supply Chains</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS203</div>
+                                        <div class="ps-title">AI/ML-Driven Real-Time Email and Web Phishing Protection
+                                            Platform</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS204</div>
+                                        <div class="ps-title">Intelligent Firewall System for Dynamic Threat Analysis
+                                            and Zero Trust Enforcement</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS205</div>
+                                        <div class="ps-title">Mitigating National Security Threats from AI-Driven
+                                            Disinformation and LLM Misuse</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other Themes -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-leaf"></i></div>
+                                <div class="accordion-title">FoodTech/MedTech/AgriTech</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="theme-desc-box">
+                                    <p>FoodTech, MedTech & AgriTech focus on technology-driven innovation in essential
+                                        sectors. FoodTech encourages solutions that improve food safety, reduce waste,
+                                        and promote healthier, smarter consumption. MedTech aims to enhance healthcare
+                                        through better diagnosis, monitoring, accessibility, and patient-centric
+                                        systems. AgriTech empowers farmers with smart, sustainable technologies to boost
+                                        productivity, efficiency, and resilience in agriculture.</p>
+                                </div>
+                                <h4 class="ps-subtitle">Problem Statements</h4>
+                                <div class="ps-list">
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS301</div>
+                                        <div class="ps-title">AI-Powered Image Recognition System for Indian Livestock
+                                            Breed Identification</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS302</div>
+                                        <div class="ps-title">AI-Integrated Nutrient Analysis and Practice Management
+                                            Software for Ayurveda Nutritionists</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS303</div>
+                                        <div class="ps-title">Blockchain-Based Supply Chain Transparency for
+                                            Agricultural Produce</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS304</div>
+                                        <div class="ps-title">AI-powered monitoring of crop health, soil condition, and
+                                            pest risks using multispectral/hyperspectral imaging and sensor data</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS305</div>
+                                        <div class="ps-title">AI Tool for Early-Stage Dementia Detection</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-building"></i></div>
+                                <div class="accordion-title">InfraTech & IoT</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="theme-desc-box">
+                                    <p>InfraTech & IoT focus on building smart, connected, and sustainable systems.
+                                        InfraTech encourages modern solutions for urban development, transportation,
+                                        utilities, and smart cities using automation and AI-driven monitoring. IoT
+                                        emphasizes interconnected devices and sensors to enable real-time monitoring,
+                                        data-driven insights, and automated actions.</p>
+                                </div>
+                                <h4 class="ps-subtitle">Problem Statements</h4>
+                                <div class="ps-list">
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS401</div>
+                                        <div class="ps-title">Waste Segregation Monitoring System for Urban Local Bodies
+                                        </div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS402</div>
+                                        <div class="ps-title">Developing a real-time Ganga Water Quality Monitoring
+                                            System using AI, Satellite Data, IoT, and Dynamic Models</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS403</div>
+                                        <div class="ps-title">AI-Powered Smart Construction Site & Workforce Management
+                                            System</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS404</div>
+                                        <div class="ps-title">Smart Parking Detection and Reservation Platform</div>
+                                    </div>
+                                    <div class="ps-item">
+                                        <div class="ps-id">PS405</div>
+                                        <div class="ps-title">IoT-Enabled Air Quality and Noise Monitoring Station</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                                <div class="accordion-title">Miscellaneous</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <div class="theme-desc-box">
+                                    <p>This category allows participants to solve any real-world problem of their
+                                        choice. It encourages creative, flexible, and innovative tech solutions beyond
+                                        the defined themes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FAQs Page -->
+    <div id="faqs-page" style="display: none;">
+        <section class="section" style="padding-top: 150px; min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title text-center text-glow"
+                    style="font-size: 3.5rem; margin-bottom: 0.5rem; color: var(--color-accent); text-shadow: 0 0 15px rgba(72,202,228,0.5);">
+                    FAQs</h2>
+                <p class="text-center"
+                    style="font-size: 1.1rem; margin: 0 auto 4rem auto; max-width: 800px; line-height: 1.6;">Got
+                    questions about Hackfinity? We’ve got you covered. Explore everything you need to know—from
+                    registration and submissions to rules, rewards, and event details.</p>
+
+                <div class="accordion">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item active">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What is Hackfinity?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Hackfinity is a 24-hour hackathon designed to foster innovation and creativity by
+                                    challenging participants to solve real-world problems aligned with Industry 5.0. It
+                                    brings together students to collaborate, build impactful solutions, and showcase
+                                    their technical and problem-solving skills.</p>
+                                <p style="margin-top: 10px;">Participants can explore the detailed problem statements in
+                                    the Problem Statements section.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Who can participate in Hackfinity?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Open to undergraduate students pursuing BE/BTech, BCA/MCA, BSc (CS), and other
+                                    relevant degrees.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What is the team size allowed for participation?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Each team must consist of 3 to 4 members. Teams can be formed across different
+                                    departments and semesters, encouraging diverse perspectives and collaborative
+                                    problem-solving.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What is the last date for team registration and PPT
+                                    submission?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>The last date for team registration and submission of the PPT (in PDF format) is 22nd
+                                    April 2026.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What is the selection/shortlisting process?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Teams will be shortlisted based on the evaluation of their submitted presentation
+                                    (PPT), which must be uploaded in PDF format. The file should be named in the format:
+                                    team_name.pdf. Submissions will be assessed on the basis of idea clarity,
+                                    innovation, and relevance to the given problem statements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Is there any registration fee for Hackfinity?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Shortlisted teams are required to pay a registration fee of ₹100 per participant.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What should the PPT include?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Participants are required to follow the official PPT template provided by the
+                                    organizers. The template, along with the rulebook and brochure, is available on our
+                                    website and Unstop under the “Download Attachments” section. Teams are advised to
+                                    adhere to the given format and guidelines while preparing their submission.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 8 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">What are the evaluation criteria for shortlisting/final
+                                    judging?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Projects will be evaluated based on the following criteria:</p>
+                                <ul style="list-style-type: disc; margin-left: 20px; margin-top: 10px;">
+                                    <li>Innovation & Creativity</li>
+                                    <li>Technical Implementation</li>
+                                    <li>Functionality & Feasibility</li>
+                                    <li>Impact & Relevance</li>
+                                    <li>Presentation & Demonstration</li>
+                                </ul>
+                                <p style="margin-top: 10px;">The decision of the judging panel will be final and
+                                    binding.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 9 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Will participants receive certificates or rewards?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Yes, Hackfinity offers an exciting prize pool worth ₹2.6 lakh, along with additional
+                                    rewards and gifts. All participants will also receive certificates of participation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 10 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Where will Hackfinity be conducted?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Hackfinity will be held at Cambridge Institute of Technology North Campus, Bangalore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 11 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Will accommodation and food be provided?</div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>Yes, accommodation and food will be provided for all participants throughout the
+                                    duration of the hackathon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 12 -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-title-wrap">
+                                <div class="accordion-icon"><i class="fa-solid fa-circle-question"></i></div>
+                                <div class="accordion-title">Whom should participants contact for queries or support?
+                                </div>
+                            </div>
+                            <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-inner">
+                                <p>For any queries or support, participants can find the relevant contact details at the
+                                    end of our homepage on the official website, as well as on our Unstop page. Feel
+                                    free to reach out to us for assistance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact-page" style="display: none; animation: fadeIn 0.5s ease;">
+        <section class="section" style="padding-top: 150px; min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title text-center text-glow"
+                    style="font-size: 3.5rem; margin-bottom: 0.5rem; color: var(--color-accent); text-shadow: 0 0 15px rgba(72,202,228,0.5);">
+                    Get in Touch</h2>
+                <p class="text-center"
+                    style="font-size: 1.1rem; margin-bottom: 4rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    Have questions or need assistance? We’re here to help. Reach out to the Hackfinity team through the
+                    contact details below.</p>
+
+                <div class="contact-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; max-width: 1050px; margin: 0 auto;">
+                    <div class="glass-card contact-card text-center"
+                        style="padding: 0; border: 1px solid rgba(157, 78, 221, 0.3); background: rgba(10, 8, 30, 0.7); overflow: hidden; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                        <div
+                            style="height: 100px; background: linear-gradient(135deg, rgba(157, 78, 221, 0.5), rgba(72, 202, 228, 0.1)); border-bottom: 1px solid rgba(157, 78, 221, 0.2);">
+                        </div>
+                        <div style="padding: 0 2rem 2.5rem; position: relative; margin-top: -45px;">
+                            <div
+                                style="width: 90px; height: 90px; margin: 0 auto 1.5rem; background: #0b091a; border: 2px solid rgba(157, 78, 221, 0.8); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; color: var(--color-primary); box-shadow: 0 0 20px rgba(157, 78, 221, 0.5);">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <h3
+                                style="font-size: 1.6rem; color: #fff; margin-bottom: 0.3rem; font-weight: 600; letter-spacing: 0.5px;">
+                                Dr. S J Sugumar</h3>
+                            <p
+                                style="color: var(--color-accent); font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 2rem;">
+                                Faculty Convenor</p>
+                            <div
+                                style="display: inline-block; background: rgba(157, 78, 221, 0.1); border: 1px solid rgba(157, 78, 221, 0.3); border-radius: 50px; padding: 0.8rem 1.7rem; transition: all 0.3s ease;">
+                                <p
+                                    style="font-size: 1.15rem; color: #e2e8f0; font-weight: 600; margin: 0; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <i class="fa-solid fa-phone" style="color: var(--color-primary);"></i>
+                                    +91 89036 18874
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-card text-center"
+                        style="padding: 0; border: 1px solid rgba(72, 202, 228, 0.3); background: rgba(10, 8, 30, 0.7); overflow: hidden; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                        <div
+                            style="height: 100px; background: linear-gradient(135deg, rgba(72, 202, 228, 0.5), rgba(157, 78, 221, 0.1)); border-bottom: 1px solid rgba(72, 202, 228, 0.2);">
+                        </div>
+                        <div style="padding: 0 2rem 2.5rem; position: relative; margin-top: -45px;">
+                            <div
+                                style="width: 90px; height: 90px; margin: 0 auto 1.5rem; background: #0b091a; border: 2px solid rgba(72, 202, 228, 0.8); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; color: var(--color-accent); box-shadow: 0 0 20px rgba(72, 202, 228, 0.5);">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <h3
+                                style="font-size: 1.6rem; color: #fff; margin-bottom: 0.3rem; font-weight: 600; letter-spacing: 0.5px;">
+                                Pooja A</h3>
+                            <p
+                                style="color: var(--color-primary); font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 2rem;">
+                                Lead Organizer</p>
+                            <div
+                                style="display: inline-block; background: rgba(72, 202, 228, 0.1); border: 1px solid rgba(72, 202, 228, 0.3); border-radius: 50px; padding: 0.8rem 1.7rem; transition: all 0.3s ease;">
+                                <p
+                                    style="font-size: 1.15rem; color: #e2e8f0; font-weight: 600; margin: 0; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <i class="fa-solid fa-phone" style="color: var(--color-accent);"></i>
+                                    +91 94809 94038
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-card text-center"
+                        style="padding: 0; border: 1px solid rgba(247, 37, 133, 0.3); background: rgba(10, 8, 30, 0.7); overflow: hidden; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                        <div
+                            style="height: 100px; background: linear-gradient(135deg, rgba(247, 37, 133, 0.5), rgba(157, 78, 221, 0.1)); border-bottom: 1px solid rgba(247, 37, 133, 0.2);">
+                        </div>
+                        <div style="padding: 0 2rem 2.5rem; position: relative; margin-top: -45px;">
+                            <div
+                                style="width: 90px; height: 90px; margin: 0 auto 1.5rem; background: #0b091a; border: 2px solid rgba(247, 37, 133, 0.8); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; color: #f72585; box-shadow: 0 0 20px rgba(247, 37, 133, 0.5);">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <h3
+                                style="font-size: 1.6rem; color: #fff; margin-bottom: 0.3rem; font-weight: 600; letter-spacing: 0.5px;">
+                                Shreya Pal</h3>
+                            <p
+                                style="color: #f72585; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 2rem;">
+                                Lead Organizer</p>
+                            <div
+                                style="display: inline-block; background: rgba(247, 37, 133, 0.1); border: 1px solid rgba(247, 37, 133, 0.3); border-radius: 50px; padding: 0.8rem 1.7rem; transition: all 0.3s ease;">
+                                <p
+                                    style="font-size: 1.15rem; color: #e2e8f0; font-weight: 600; margin: 0; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <i class="fa-solid fa-phone" style="color: #f72585;"></i>
+                                    +91 82570 02386
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 8. Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Hackfinity 2026</h3>
+                <p>Organized by Techfinity Club</p>
+                <p>Cambridge Institute of Technology North Campus</p>
+                <p>Bengaluru, India</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#about">About</a>
+                <a href="https://unstop.com/p/hackfinity-24-hour-hackathon-cambridge-institute-of-technology-north-campus-1666268?lb=5FaiLkSS&utm_medium=Share&utm_source=WhatsApp"
+                    target="_blank">Register</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/hackfinity_citnc?igsh=NnlsbHB2N3luNmph" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/cambridge-institute-of-technology-north-campus/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Hackfinity. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
