@@ -149,6 +149,10 @@ function showPage(pageId) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
+
+  // Reveal elements on the newly shown page after a short delay
+  setTimeout(reveal, 100);
+  setTimeout(reveal, 500);
 }
 
 // On Load check hash
@@ -233,10 +237,52 @@ function reveal() {
   }
 }
 
-window.addEventListener('scroll', reveal);
+// Hamburger Menu Toggle
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const navLinks = document.querySelector('.nav-links');
+
+if (hamburgerBtn && navLinks) {
+  hamburgerBtn.addEventListener('click', function () {
+    this.classList.toggle('active');
+    navLinks.classList.toggle('active');
+    document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+  });
+
+  // Close menu when clicking a nav link (not the dropdown trigger)
+  navLinks.querySelectorAll('a:not(.dropbtn)').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburgerBtn.classList.remove('active');
+      navLinks.classList.remove('active');
+      document.body.style.overflow = '';
+      // Also close any open dropdown
+      const openDropdown = navLinks.querySelector('.dropdown.mobile-open');
+      if (openDropdown) openDropdown.classList.remove('mobile-open');
+    });
+  });
+
+  // Mobile dropdown toggle (click instead of hover)
+  const dropdownBtn = navLinks.querySelector('.dropbtn');
+  if (dropdownBtn) {
+    dropdownBtn.addEventListener('click', (e) => {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        e.stopPropagation();
+        dropdownBtn.closest('.dropdown').classList.toggle('mobile-open');
+      }
+    });
+  }
+}
 
 // Initial setup
 initCanvas();
 initParticles();
 animate();
-reveal(); // Trigger reveal on load
+
+// Reveal: fire on load, scroll, and resize
+reveal();
+window.addEventListener('scroll', reveal);
+window.addEventListener('resize', reveal);
+
+// Fallback: reveal again after short delays to catch any edge cases
+setTimeout(reveal, 300);
+setTimeout(reveal, 1000);
